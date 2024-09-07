@@ -23,6 +23,24 @@ Solving LeetCode problems is a great way to improve your problem-solving skills 
 
 Whether you're preparing for a technical interview or looking to improve your coding skills, this repository is a helpful resource.
 
+## Usage
+- install the dependencies
+```bash
+npm install 
+```
+- run the development server
+```bash
+npm run dev
+```
+- start the production build of the project
+```bash
+npm start
+```
+- build the project
+```bash
+npm run build 
+```
+
 ## License
 
 This repository is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
