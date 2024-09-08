@@ -12,6 +12,8 @@ import wordPattern from "./topInterview150/hashmap/wordPattern";
 import isAnagram from "./topInterview150/hashmap/validAnagram";
 import { twoSum, twoSumII } from "./topInterview150/hashmap/twoSum";
 import { isHappy } from "./topInterview150/hashmap/happyNumber";
+import { containsNearbyDuplicate } from "./topInterview150/hashmap/containsDuplicateII";
+import {testMaxDepth} from "./topInterview150/binaryTreeGeneral/maximumDepthOfBinaryTree";
 
 console.log(
   "Find the Index of the First Occurrence in a String :",
@@ -55,3 +57,7 @@ console.log("Valid Anagram :", isAnagram("anagram", "nagaram"));
 console.log("Two Sum :", twoSumII([2, 7, 11, 15], 9));
 
 console.log("Happy Number :", isHappy(19));
+
+console.log("Contains Duplicate II :", containsNearbyDuplicate([1, 2, 3, 1], 3));
+
+console.log("Maximum Depth of Binary Tree :", testMaxDepth())
