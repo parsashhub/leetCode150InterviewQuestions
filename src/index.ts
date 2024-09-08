@@ -10,6 +10,8 @@ import canConstruct from "./topInterview150/hashmap/ransomNote";
 import isIsomorphic from "./topInterview150/hashmap/isomorphicStrings";
 import wordPattern from "./topInterview150/hashmap/wordPattern";
 import isAnagram from "./topInterview150/hashmap/validAnagram";
+import { twoSum, twoSumII } from "./topInterview150/hashmap/twoSum";
+import { isHappy } from "./topInterview150/hashmap/happyNumber";
 
 console.log(
   "Find the Index of the First Occurrence in a String :",
@@ -43,7 +45,13 @@ console.log("Ransom Note :", canConstruct("aa", "aab"));
 
 console.log("Isomorphic String :", isIsomorphic("add", "egg"));
 
-console.log("Word Pattern :", wordPattern("abba", "dog constructor constructor dog"))
+console.log(
+  "Word Pattern :",
+  wordPattern("abba", "dog constructor constructor dog"),
+);
 
+console.log("Valid Anagram :", isAnagram("anagram", "nagaram"));
 
-console.log("Valid Anagram :", isAnagram("anagram", "nagaram"))
+console.log("Two Sum :", twoSumII([2, 7, 11, 15], 9));
+
+console.log("Happy Number :", isHappy(19));
