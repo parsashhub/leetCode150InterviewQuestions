@@ -14,6 +14,7 @@ import { twoSum, twoSumII } from "./topInterview150/hashmap/twoSum";
 import { isHappy } from "./topInterview150/hashmap/happyNumber";
 import { containsNearbyDuplicate } from "./topInterview150/hashmap/containsDuplicateII";
 import {testMaxDepth} from "./topInterview150/binaryTreeGeneral/maximumDepthOfBinaryTree";
+import {isSameTree, testIsSameTree} from "./topInterview150/binaryTreeGeneral/sameTree";
 
 console.log(
   "Find the Index of the First Occurrence in a String :",
@@ -61,3 +62,5 @@ console.log("Happy Number :", isHappy(19));
 console.log("Contains Duplicate II :", containsNearbyDuplicate([1, 2, 3, 1], 3));
 
 console.log("Maximum Depth of Binary Tree :", testMaxDepth())
+
+console.log("Same Tree :", testIsSameTree())
