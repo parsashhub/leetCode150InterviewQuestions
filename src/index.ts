@@ -16,6 +16,7 @@ import { containsNearbyDuplicate } from "./topInterview150/hashmap/containsDupli
 import {testMaxDepth} from "./topInterview150/binaryTreeGeneral/maximumDepthOfBinaryTree";
 import {isSameTree, testIsSameTree} from "./topInterview150/binaryTreeGeneral/sameTree";
 import {testInvertTree} from "./topInterview150/binaryTreeGeneral/invertBinaryTree";
+import {testIsSymmetric} from "./topInterview150/binaryTreeGeneral/symmetricTree";
 
 console.log(
   "Find the Index of the First Occurrence in a String :",
@@ -67,3 +68,5 @@ console.log("Maximum Depth of Binary Tree :", testMaxDepth())
 console.log("Same Tree :", testIsSameTree())
 
 console.log("Invert Binary Tree :", testInvertTree())
+
+console.log("Symmetric Tree :", testIsSymmetric())
