@@ -8,6 +8,45 @@ export class TreeNode {
     this.left = left === undefined ? null : left;
     this.right = right === undefined ? null : right;
   }
+
+  // This method will print the tree in in-order traversal (left, root, right).
+  printInOrder(): string {
+    let result = '';
+    if (this.left !== null)
+      result += this.left.printInOrder() + ' ';
+
+    result += this.val + ' ';
+    if (this.right !== null)
+      result += this.right.printInOrder() + ' ';
+
+    return result.trim();
+  }
+
+  // This method will print the tree in pre-order traversal (root, left, right).
+  printPreOrder(): string {
+    let result = '';
+    result += this.val + ' ';
+    if (this.left !== null)
+      result += this.left.printPreOrder() + ' ';
+
+    if (this.right !== null)
+      result += this.right.printPreOrder() + ' ';
+
+    return result.trim();
+  }
+
+  // This method will print the tree in post-order traversal (left, right, root).
+  printPostOrder(): string {
+    let result = '';
+    if (this.left !== null)
+      result += this.left.printPostOrder() + ' ';
+
+    if (this.right !== null)
+      result += this.right.printPostOrder() + ' ';
+
+    result += this.val + ' ';
+    return result.trim();
+  }
 }
 
 function maxDepth(root: TreeNode | null): number {
