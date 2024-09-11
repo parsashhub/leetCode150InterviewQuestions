@@ -17,8 +17,12 @@ import { testMaxDepth } from "./topInterview150/binaryTreeGeneral/maximumDepthOf
 import { testIsSameTree } from "./topInterview150/binaryTreeGeneral/sameTree";
 import { testInvertTree } from "./topInterview150/binaryTreeGeneral/invertBinaryTree";
 import { testIsSymmetric } from "./topInterview150/binaryTreeGeneral/symmetricTree";
-import {hasPathSum, testHasPathSum} from "./topInterview150/binaryTreeGeneral/pathSum";
-import {testCountNodes} from "./topInterview150/binaryTreeGeneral/countCompleteTreeNodes";
+import {
+  hasPathSum,
+  testHasPathSum,
+} from "./topInterview150/binaryTreeGeneral/pathSum";
+import { testCountNodes } from "./topInterview150/binaryTreeGeneral/countCompleteTreeNodes";
+import { testAverageOfLevels } from "./topInterview150/binaryTreeBFS/averageOfLevelsInBinaryTree";
 
 console.log(
   "Find the Index of the First Occurrence in a String :",
@@ -76,6 +80,8 @@ console.log("Invert Binary Tree :", testInvertTree());
 
 console.log("Symmetric Tree :", testIsSymmetric());
 
-console.log("Path Sum :", testHasPathSum())
+console.log("Path Sum :", testHasPathSum());
 
-console.log("Count Complete Tree Nodes :", testCountNodes())
+console.log("Count Complete Tree Nodes :", testCountNodes());
+
+console.log("Average of Levels in Binary Tree :", testAverageOfLevels());
