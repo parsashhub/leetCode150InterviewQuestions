@@ -18,6 +18,7 @@ import { testIsSameTree } from "./topInterview150/binaryTreeGeneral/sameTree";
 import { testInvertTree } from "./topInterview150/binaryTreeGeneral/invertBinaryTree";
 import { testIsSymmetric } from "./topInterview150/binaryTreeGeneral/symmetricTree";
 import {hasPathSum, testHasPathSum} from "./topInterview150/binaryTreeGeneral/pathSum";
+import {testCountNodes} from "./topInterview150/binaryTreeGeneral/countCompleteTreeNodes";
 
 console.log(
   "Find the Index of the First Occurrence in a String :",
@@ -76,3 +77,5 @@ console.log("Invert Binary Tree :", testInvertTree());
 console.log("Symmetric Tree :", testIsSymmetric());
 
 console.log("Path Sum :", testHasPathSum())
+
+console.log("Count Complete Tree Nodes :", testCountNodes())
