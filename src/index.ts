@@ -23,6 +23,7 @@ import {
 } from "./topInterview150/binaryTreeGeneral/pathSum";
 import { testCountNodes } from "./topInterview150/binaryTreeGeneral/countCompleteTreeNodes";
 import { testAverageOfLevels } from "./topInterview150/binaryTreeBFS/averageOfLevelsInBinaryTree";
+import {isPalindromeII} from "./topInterview150/math/palindromeNumber";
 
 console.log(
   "Find the Index of the First Occurrence in a String :",
@@ -85,3 +86,5 @@ console.log("Path Sum :", testHasPathSum());
 console.log("Count Complete Tree Nodes :", testCountNodes());
 
 console.log("Average of Levels in Binary Tree :", testAverageOfLevels());
+
+console.log("Palindrome Number :", isPalindromeII(121))
