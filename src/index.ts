@@ -26,6 +26,7 @@ import { testAverageOfLevels } from "./topInterview150/binaryTreeBFS/averageOfLe
 import { isPalindromeII } from "./topInterview150/math/palindromeNumber";
 import { plusOne } from "./topInterview150/math/plusOne";
 import {mySqrt, mySqrtII} from "./topInterview150/math/sqrt(x)";
+import {addBinary} from "./topInterview150/bitManipulation/addBinary";
 
 console.log(
   "Find the Index of the First Occurrence in a String :",
@@ -94,3 +95,5 @@ console.log("Palindrome Number :", isPalindromeII(121));
 console.log("Plus One :", plusOne([1, 2, 3, 9]));
 
 console.log("Sqrt(x) :", mySqrtII(2))
+
+console.log("Add Binary :", addBinary("11", "1"))
