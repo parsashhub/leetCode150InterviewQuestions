@@ -29,6 +29,7 @@ import {mySqrt, mySqrtII} from "./topInterview150/math/sqrt(x)";
 import {addBinary} from "./topInterview150/bitManipulation/addBinary";
 import {reverseBits} from "./topInterview150/bitManipulation/reverseBits";
 import {singleNumberIII} from "./topInterview150/bitManipulation/singleNumber";
+import {hammingWeight, hammingWeightII} from "./topInterview150/bitManipulation/numberOf1Bits";
 
 console.log(
   "Find the Index of the First Occurrence in a String :",
@@ -103,3 +104,5 @@ console.log("Add Binary :", addBinary("11", "1"))
 console.log("Reverse Bit :", reverseBits(0b0000010100101000001111010011100))
 
 console.log("Single Number :", singleNumberIII([2,2,1]))
+
+console.log("Number of 1 Bits :" , hammingWeightII(128))
