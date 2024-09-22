@@ -25,11 +25,15 @@ import { testCountNodes } from "./topInterview150/binaryTreeGeneral/countComplet
 import { testAverageOfLevels } from "./topInterview150/binaryTreeBFS/averageOfLevelsInBinaryTree";
 import { isPalindromeII } from "./topInterview150/math/palindromeNumber";
 import { plusOne } from "./topInterview150/math/plusOne";
-import {mySqrt, mySqrtII} from "./topInterview150/math/sqrt(x)";
-import {addBinary} from "./topInterview150/bitManipulation/addBinary";
-import {reverseBits} from "./topInterview150/bitManipulation/reverseBits";
-import {singleNumberIII} from "./topInterview150/bitManipulation/singleNumber";
-import {hammingWeight, hammingWeightII} from "./topInterview150/bitManipulation/numberOf1Bits";
+import { mySqrt, mySqrtII } from "./topInterview150/math/sqrt(x)";
+import { addBinary } from "./topInterview150/bitManipulation/addBinary";
+import { reverseBits } from "./topInterview150/bitManipulation/reverseBits";
+import { singleNumberIII } from "./topInterview150/bitManipulation/singleNumber";
+import {
+  hammingWeight,
+  hammingWeightII,
+} from "./topInterview150/bitManipulation/numberOf1Bits";
+import { testGetMinimumDifference } from "./topInterview150/binarySearchTree/minimumAbsoluteDifferenceInBST";
 
 console.log(
   "Find the Index of the First Occurrence in a String :",
@@ -97,12 +101,14 @@ console.log("Palindrome Number :", isPalindromeII(121));
 
 console.log("Plus One :", plusOne([1, 2, 3, 9]));
 
-console.log("Sqrt(x) :", mySqrtII(2))
+console.log("Sqrt(x) :", mySqrtII(2));
 
-console.log("Add Binary :", addBinary("11", "1"))
+console.log("Add Binary :", addBinary("11", "1"));
 
-console.log("Reverse Bit :", reverseBits(0b0000010100101000001111010011100))
+console.log("Reverse Bit :", reverseBits(0b0000010100101000001111010011100));
 
-console.log("Single Number :", singleNumberIII([2,2,1]))
+console.log("Single Number :", singleNumberIII([2, 2, 1]));
 
-console.log("Number of 1 Bits :" , hammingWeightII(128))
+console.log("Number of 1 Bits :", hammingWeightII(128));
+
+console.log("Minimum Absolute Difference in BST :", testGetMinimumDifference());
