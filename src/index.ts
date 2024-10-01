@@ -34,6 +34,7 @@ import {
   hammingWeightII,
 } from "./topInterview150/bitManipulation/numberOf1Bits";
 import { testGetMinimumDifference } from "./topInterview150/binarySearchTree/minimumAbsoluteDifferenceInBST";
+import {maxProfitII} from "./topInterview150/arrayString/bestTimeToBuyAndSellStockII";
 
 console.log(
   "Find the Index of the First Occurrence in a String :",
@@ -112,3 +113,5 @@ console.log("Single Number :", singleNumberIII([2, 2, 1]));
 console.log("Number of 1 Bits :", hammingWeightII(128));
 
 console.log("Minimum Absolute Difference in BST :", testGetMinimumDifference());
+
+console.log("Best Time to Buy and Sell Stock II :", maxProfitII([7,1,5,3,6,4]));
