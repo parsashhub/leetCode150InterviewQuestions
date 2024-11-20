@@ -34,8 +34,9 @@ import {
   hammingWeightII,
 } from "./topInterview150/bitManipulation/numberOf1Bits";
 import { testGetMinimumDifference } from "./topInterview150/binarySearchTree/minimumAbsoluteDifferenceInBST";
-import {maxProfitII} from "./topInterview150/arrayString/bestTimeToBuyAndSellStockII";
-import {canJump} from "./topInterview150/arrayString/jumpGame";
+import { maxProfitII } from "./topInterview150/arrayString/bestTimeToBuyAndSellStockII";
+import { canJump } from "./topInterview150/arrayString/jumpGame";
+import { canCompleteCircuit } from "./topInterview150/arrayString/gasStation";
 
 console.log(
   "Find the Index of the First Occurrence in a String :",
@@ -115,6 +116,14 @@ console.log("Number of 1 Bits :", hammingWeightII(128));
 
 console.log("Minimum Absolute Difference in BST :", testGetMinimumDifference());
 
-console.log("Best Time to Buy and Sell Stock II :", maxProfitII([7,1,5,3,6,4]));
+console.log(
+  "Best Time to Buy and Sell Stock II :",
+  maxProfitII([7, 1, 5, 3, 6, 4]),
+);
 
-console.log("Jump Game :", canJump([2,3,1,1,4]));
+console.log("Jump Game :", canJump([2, 3, 1, 1, 4]));
+
+console.log(
+  "Gas Station :",
+  canCompleteCircuit([1, 2, 3, 4, 5], [3, 4, 5, 1, 2]),
+);

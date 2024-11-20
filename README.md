@@ -2,6 +2,8 @@
 ## LeetCode Top 150 Interview Questions - TypeScript Solutions
 
 This repository contains solutions to the **Top 150 LeetCode Interview Questions**, implemented in **TypeScript**.
+**(not completed!)**
+
 
 ## Repository Structure
 
