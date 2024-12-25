@@ -37,6 +37,7 @@ import { testGetMinimumDifference } from "./topInterview150/binarySearchTree/min
 import { maxProfitII } from "./topInterview150/arrayString/bestTimeToBuyAndSellStockII";
 import { canJump } from "./topInterview150/arrayString/jumpGame";
 import { canCompleteCircuit } from "./topInterview150/arrayString/gasStation";
+import { maxArea } from "./topInterview150/twoPointers/maxArea";
 
 console.log(
   "Find the Index of the First Occurrence in a String :",
@@ -126,4 +127,9 @@ console.log("Jump Game :", canJump([2, 3, 1, 1, 4]));
 console.log(
   "Gas Station :",
   canCompleteCircuit([1, 2, 3, 4, 5], [3, 4, 5, 1, 2]),
+);
+
+console.log(
+  "Container With Most Water :",
+  maxArea([1, 8, 6, 2, 5, 4, 8, 3, 7]),
 );
