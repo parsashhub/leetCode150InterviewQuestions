@@ -38,6 +38,7 @@ import { maxProfitII } from "./topInterview150/arrayString/bestTimeToBuyAndSellS
 import { canJump } from "./topInterview150/arrayString/jumpGame";
 import { canCompleteCircuit } from "./topInterview150/arrayString/gasStation";
 import { maxArea } from "./topInterview150/twoPointers/maxArea";
+import { reverseWords } from "./topInterview150/arrayString/reverseWords";
 
 console.log(
   "Find the Index of the First Occurrence in a String :",
@@ -132,4 +133,9 @@ console.log(
 console.log(
   "Container With Most Water :",
   maxArea([1, 8, 6, 2, 5, 4, 8, 3, 7]),
+);
+
+console.log(
+  "Reverse Words in a String :",
+  reverseWords("  a good   example  "),
 );
