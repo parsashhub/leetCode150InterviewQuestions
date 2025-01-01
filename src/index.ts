@@ -39,6 +39,7 @@ import { canJump } from "./topInterview150/arrayString/jumpGame";
 import { canCompleteCircuit } from "./topInterview150/arrayString/gasStation";
 import { maxArea } from "./topInterview150/twoPointers/maxArea";
 import { reverseWords } from "./topInterview150/arrayString/reverseWords";
+import { isValidSudoku } from "./topInterview150/matrix/validSudoku";
 
 console.log(
   "Find the Index of the First Occurrence in a String :",
@@ -138,4 +139,19 @@ console.log(
 console.log(
   "Reverse Words in a String :",
   reverseWords("  a good   example  "),
+);
+
+console.log(
+  "Valid sudoku :",
+  isValidSudoku([
+    ["5", "3", ".", ".", "7", ".", ".", ".", "."],
+    ["6", ".", ".", "1", "9", "5", ".", ".", "."],
+    [".", "9", "8", ".", ".", ".", ".", "6", "."],
+    ["8", ".", ".", ".", "6", ".", ".", ".", "3"],
+    ["4", ".", ".", "8", ".", "3", ".", ".", "1"],
+    ["7", ".", ".", ".", "2", ".", ".", ".", "6"],
+    [".", "6", ".", ".", ".", ".", "2", "8", "."],
+    [".", ".", ".", "4", "1", "9", ".", ".", "5"],
+    [".", ".", ".", ".", "8", ".", ".", "7", "9"],
+  ]),
 );
