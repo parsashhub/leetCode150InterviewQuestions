@@ -40,6 +40,7 @@ import { canCompleteCircuit } from "./topInterview150/arrayString/gasStation";
 import { maxArea } from "./topInterview150/twoPointers/maxArea";
 import { reverseWords } from "./topInterview150/arrayString/reverseWords";
 import { isValidSudoku } from "./topInterview150/matrix/validSudoku";
+import {simplifyPath} from "./topInterview150/stack/simplifyPath";
 
 console.log(
   "Find the Index of the First Occurrence in a String :",
@@ -155,3 +156,5 @@ console.log(
     [".", ".", ".", ".", "8", ".", ".", "7", "9"],
   ]),
 );
+
+console.log("Simplify Path :", simplifyPath("/home/user/Documents/../Pictures"));
