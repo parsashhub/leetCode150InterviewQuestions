@@ -40,8 +40,8 @@ import { canCompleteCircuit } from "./topInterview150/arrayString/gasStation";
 import { maxArea } from "./topInterview150/twoPointers/maxArea";
 import { reverseWords } from "./topInterview150/arrayString/reverseWords";
 import { isValidSudoku } from "./topInterview150/matrix/validSudoku";
-import {simplifyPath} from "./topInterview150/stack/simplifyPath";
-import {evalRPN} from "./topInterview150/stack/evaluateReversePolishNotation";
+import { simplifyPath } from "./topInterview150/stack/simplifyPath";
+import { evalRPN } from "./topInterview150/stack/evaluateReversePolishNotation";
 
 console.log(
   "Find the Index of the First Occurrence in a String :",
@@ -158,6 +158,26 @@ console.log(
   ]),
 );
 
-console.log("Simplify Path :", simplifyPath("/home/user/Documents/../Pictures"));
+console.log(
+  "Simplify Path :",
+  simplifyPath("/home/user/Documents/../Pictures"),
+);
 
-console.log("Evaluate Reverse Polish Notation :", evalRPN(["10","6","9","3","+","-11","*","/","*","17","+","5","+"]));
+console.log(
+  "Evaluate Reverse Polish Notation :",
+  evalRPN([
+    "10",
+    "6",
+    "9",
+    "3",
+    "+",
+    "-11",
+    "*",
+    "/",
+    "*",
+    "17",
+    "+",
+    "5",
+    "+",
+  ]),
+);
